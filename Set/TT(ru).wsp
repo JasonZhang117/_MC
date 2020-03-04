@@ -1,7 +1,7 @@
 
 [Wsp]
-	(C2526AC1-535C-4a67-92B5-101E53EA9E4B) = '{0}{1}'
-	ActiveIndex = '0'
+	(C2526AC1-535C-4a67-92B5-101E53EA9E4B) = '{1}{0}'
+	ActiveIndex = '1'
 	MaximizedFlag = '0'
 	Version = '1'
 	WindowCount = '2'
@@ -66,8 +66,8 @@
 	ChartTypeName = '标准'
 	CumulativeDeltaChartType = '1'
 	DataFeed = 'MCTrader'
-	Description = '豆粕 202009'
-	Exchange = 'DCE'
+	Description = '橡胶 202009'
+	Exchange = 'SHFE'
 	ExpirationDate = '0'
 	FieldId = '201'
 	FieldName = '成交价'
@@ -83,13 +83,13 @@
 	PFigureBasis = '1'
 	PFigureBoxSize = '10'
 	PFigureReversal = '3'
-	PriceScale = '105'
+	PriceScale = '101'
 	RangeId = '0'
 	RangeName = 'BACK'
 	RealTimeCategory = '0'
 	RealTimeDataFeed = 'MCTrader'
-	RealTimeExchange = 'DCE'
-	RealTimeSymbol = 'DCE.m 2009'
+	RealTimeExchange = 'SHFE'
+	RealTimeSymbol = 'SHFE.ru 2009'
 	RenkoBasis = '0'
 	RenkoBoxSize = '10'
 	RenkoBoxSizeType = '0'
@@ -106,7 +106,7 @@
 	StartDateId = '43739'
 	StartDateName = ''
 	StrikePrice = ''
-	Symbol = 'DCE.m 2009'
+	Symbol = 'SHFE.ru 2009'
 	TimeZoneId = '2'
 	TimeZoneName = '交易所'
 	Version = '2'
@@ -125,8 +125,8 @@
 	ManualMode = '0'
 	MarginBottom = '5'
 	MarginTop = '5'
-	Maximum = '2791,72222222222'
-	Minimum = '2777,27777777778'
+	Maximum = '11330'
+	Minimum = '11230'
 	MovementSize.Long = '1'
 	MovementSize.Metric = 'False'
 	MovementSize.Price = '5'
@@ -139,7 +139,7 @@
 [Wsp\Window_0\ChartManager\Chart_0\Series_0\LabelProcessingObject]
 	AutoMode = '1'
 	EnableProcessing = '0'
-	PriceScaleType = '105'
+	PriceScaleType = '101'
 	SelectedId = '0'
 
 [Wsp\Window_0\ChartManager\Chart_0\Series_0\LabelProcessingObject\Item 0]
@@ -900,8 +900,8 @@
 	ChartTypeName = '标准'
 	CumulativeDeltaChartType = '1'
 	DataFeed = 'MCTrader'
-	Description = '豆粕 202005'
-	Exchange = 'DCE'
+	Description = '橡胶 202005'
+	Exchange = 'SHFE'
 	ExpirationDate = '0'
 	FieldId = '201'
 	FieldName = '成交价'
@@ -917,13 +917,13 @@
 	PFigureBasis = '1'
 	PFigureBoxSize = '10'
 	PFigureReversal = '3'
-	PriceScale = '105'
+	PriceScale = '101'
 	RangeId = '0'
 	RangeName = 'BACK'
 	RealTimeCategory = '0'
 	RealTimeDataFeed = 'MCTrader'
-	RealTimeExchange = 'DCE'
-	RealTimeSymbol = 'DCE.m 2005'
+	RealTimeExchange = 'SHFE'
+	RealTimeSymbol = 'SHFE.ru 2005'
 	RenkoBasis = '0'
 	RenkoBoxSize = '10'
 	RenkoBoxSizeType = '0'
@@ -940,7 +940,7 @@
 	StartDateId = '43739'
 	StartDateName = ''
 	StrikePrice = ''
-	Symbol = 'DCE.m 2005'
+	Symbol = 'SHFE.ru 2005'
 	TimeZoneId = '2'
 	TimeZoneName = '交易所'
 	Version = '2'
@@ -959,8 +959,8 @@
 	ManualMode = '0'
 	MarginBottom = '5'
 	MarginTop = '5'
-	Maximum = '2731,11111111111'
-	Minimum = '2708,88888888889'
+	Maximum = '11070,2777777778'
+	Minimum = '10964,7222222222'
 	MovementSize.Long = '1'
 	MovementSize.Metric = 'False'
 	MovementSize.Price = '5'
@@ -973,7 +973,7 @@
 [Wsp\Window_0\ChartManager\Chart_1\Series_0\LabelProcessingObject]
 	AutoMode = '1'
 	EnableProcessing = '0'
-	PriceScaleType = '105'
+	PriceScaleType = '101'
 	SelectedId = '0'
 
 [Wsp\Window_0\ChartManager\Chart_1\Series_0\LabelProcessingObject\Item 0]
@@ -1763,16 +1763,16 @@
 	UserBarRef = '50'
 
 [Wsp\Window_0\ChartManager\Chart_2\Series_0\IndicatorHelper\InputHelper\Input_RSI_D_key]
-	Value = '60'
+	Value = '70'
 
 [Wsp\Window_0\ChartManager\Chart_2\Series_0\IndicatorHelper\InputHelper\Input_RSI_K_key]
-	Value = '40'
+	Value = '30'
 
 [Wsp\Window_0\ChartManager\Chart_2\Series_0\IndicatorHelper\InputHelper\Input_RSI_Len]
 	Value = '20'
 
 [Wsp\Window_0\ChartManager\Chart_2\Series_0\IndicatorHelper\InputHelper\Input_reap_profit_BS]
-	Value = '5'
+	Value = '30'
 
 [Wsp\Window_0\ChartManager\Chart_2\Series_0\IndicatorHelper\PlotHelper\Plot_1]
 	DefAlign = '2'
@@ -1833,8 +1833,8 @@
 	ManualMode = '0'
 	MarginBottom = '5'
 	MarginTop = '5'
-	Maximum = '68,8764675783696'
-	Minimum = '53,3128386095279'
+	Maximum = '296,465213468259'
+	Minimum = '190,747505713868'
 	MovementSize.Long = '1'
 	MovementSize.Metric = 'False'
 	MovementSize.Price = '5'
@@ -2336,7 +2336,7 @@
 	isStatusWindowShow = '1'
 
 [Wsp\Window_0\ChartManager\Strategy\SignalObject_0]
-	IdName = 'sa_ZwGa2da281a2d2a29a2dRSIa28msa29'
+	IdName = 'sa_ZwGa2da281a2d2a29a2dRSIa28rusa29'
 	Status = '1'
 
 [Wsp\Window_0\ChartManager\Strategy\SignalObject_0\SignalHelper]
@@ -2349,19 +2349,19 @@
 
 [Wsp\Window_0\ChartManager\Strategy\SignalObject_0\SignalHelper\InputHelper\Input_RSI_D_key]
 	IsInputOptimizable = '1'
-	LocalCurrentValue2 = '60'
-	Start2 = '60'
+	LocalCurrentValue2 = '70'
+	Start2 = '70'
 	Step2 = '1'
-	Stop2 = '60'
-	Value = '60'
+	Stop2 = '70'
+	Value = '70'
 
 [Wsp\Window_0\ChartManager\Strategy\SignalObject_0\SignalHelper\InputHelper\Input_RSI_K_key]
 	IsInputOptimizable = '1'
-	LocalCurrentValue2 = '40'
-	Start2 = '40'
+	LocalCurrentValue2 = '30'
+	Start2 = '30'
 	Step2 = '1'
-	Stop2 = '40'
-	Value = '40'
+	Stop2 = '30'
+	Value = '30'
 
 [Wsp\Window_0\ChartManager\Strategy\SignalObject_0\SignalHelper\InputHelper\Input_RSI_Len]
 	IsInputOptimizable = '1'
@@ -2373,11 +2373,11 @@
 
 [Wsp\Window_0\ChartManager\Strategy\SignalObject_0\SignalHelper\InputHelper\Input_reap_profit_BS]
 	IsInputOptimizable = '1'
-	LocalCurrentValue2 = '5'
-	Start2 = '5'
+	LocalCurrentValue2 = '30'
+	Start2 = '30'
 	Step2 = '1'
-	Stop2 = '5'
-	Value = '5'
+	Stop2 = '30'
+	Value = '30'
 
 [Wsp\Window_0\ChartManager\Strategy\SignalObject_0\SignalHelper\Styles\OrderType: Buy Entry\ArrowProps]
 	Color = '16711680'
@@ -2528,8 +2528,8 @@
 	Confirm = 'False'
 	NeedActivateAT = 'False'
 	Profile = 'MCTrader'
-	StrategyName = 'ZwG-(1-2)-RSI(ms)'
-	SymbolName = 'DCE.m 2009 - 1 分 - MCTrader'
+	StrategyName = 'ZwG-(1-2)-RSI(rus)'
+	SymbolName = 'SHFE.ru 2009 - 1 分 - MCTrader'
 
 [Wsp\Window_0\ChartManager\Strategy\StrategyHelper\OptimizerProperties\Algorithm_0]
 	CFFScriptGenetic = '// TODO: Enter your formula to replace the samples below 
@@ -2766,7 +2766,7 @@ The reserved words supported in Portfolio optimization:
 	TIF = '-1'
 
 [Wsp\Window_0\ChartManager\TradePanelPlaceholder\TradePanelObject\PerAccountSetting\Settings\Settings\Item_0\Second\TIFDate]
-	Ticks = '637187353683040000'
+	Ticks = '637189085320390000'
 
 [Wsp\Window_0\ChartManager\TradePanelPlaceholder\TradePanelObject\PerAccountSetting\Settings\Settings\Item_1]
 	First = '1999_2-0059088'
@@ -2788,7 +2788,7 @@ The reserved words supported in Portfolio optimization:
 	TIF = '1'
 
 [Wsp\Window_0\ChartManager\TradePanelPlaceholder\TradePanelObject\PerAccountSetting\Settings\Settings\Item_2\Second\TIFDate]
-	Ticks = '637187353683040000'
+	Ticks = '637189085320390000'
 
 [Wsp\Window_0\ChartManager\TradePanelPlaceholder\TradePanelObject\Window\AtmAutoApplyCtx\PropertyState]
 	Count = '0'
@@ -2857,8 +2857,8 @@ The reserved words supported in Portfolio optimization:
 	ChartTypeName = '标准'
 	CumulativeDeltaChartType = '1'
 	DataFeed = 'MCTrader'
-	Description = '豆粕 202005'
-	Exchange = 'DCE'
+	Description = '橡胶 202005'
+	Exchange = 'SHFE'
 	ExpirationDate = '0'
 	FieldId = '201'
 	FieldName = '成交价'
@@ -2874,13 +2874,13 @@ The reserved words supported in Portfolio optimization:
 	PFigureBasis = '1'
 	PFigureBoxSize = '10'
 	PFigureReversal = '3'
-	PriceScale = '105'
+	PriceScale = '101'
 	RangeId = '0'
 	RangeName = 'BACK'
 	RealTimeCategory = '0'
 	RealTimeDataFeed = 'MCTrader'
-	RealTimeExchange = 'DCE'
-	RealTimeSymbol = 'DCE.m 2005'
+	RealTimeExchange = 'SHFE'
+	RealTimeSymbol = 'SHFE.ru 2005'
 	RenkoBasis = '0'
 	RenkoBoxSize = '10'
 	RenkoBoxSizeType = '0'
@@ -2897,7 +2897,7 @@ The reserved words supported in Portfolio optimization:
 	StartDateId = '43739'
 	StartDateName = ''
 	StrikePrice = ''
-	Symbol = 'DCE.m 2005'
+	Symbol = 'SHFE.ru 2005'
 	TimeZoneId = '2'
 	TimeZoneName = '交易所'
 	Version = '2'
@@ -2916,8 +2916,8 @@ The reserved words supported in Portfolio optimization:
 	ManualMode = '0'
 	MarginBottom = '5'
 	MarginTop = '5'
-	Maximum = '2730,05555555556'
-	Minimum = '2708,94444444444'
+	Maximum = '11070,2777777778'
+	Minimum = '10964,7222222222'
 	MovementSize.Long = '1'
 	MovementSize.Metric = 'False'
 	MovementSize.Price = '5'
@@ -2930,7 +2930,7 @@ The reserved words supported in Portfolio optimization:
 [Wsp\Window_1\ChartManager\Chart_0\Series_0\LabelProcessingObject]
 	AutoMode = '1'
 	EnableProcessing = '0'
-	PriceScaleType = '105'
+	PriceScaleType = '101'
 	SelectedId = '0'
 
 [Wsp\Window_1\ChartManager\Chart_0\Series_0\LabelProcessingObject\Item 0]
@@ -4120,7 +4120,7 @@ The reserved words supported in Portfolio optimization:
 	isStatusWindowShow = '1'
 
 [Wsp\Window_1\ChartManager\Strategy\SignalObject_0]
-	IdName = 'sa_ZwGa2da281a2d2a29a2dRSIa28msa29a2dB'
+	IdName = 'sa_ZwGa2da281a2d2a29a2dRSIa28rusa29a2dB'
 	Status = '1'
 
 [Wsp\Window_1\ChartManager\Strategy\SignalObject_0\SignalHelper]
@@ -4280,8 +4280,8 @@ The reserved words supported in Portfolio optimization:
 	Confirm = 'False'
 	NeedActivateAT = 'False'
 	Profile = 'MCTrader'
-	StrategyName = 'ZwG-(1-2)-RSI(ms)-B'
-	SymbolName = 'DCE.m 2005 - 1 分 - MCTrader'
+	StrategyName = 'ZwG-(1-2)-RSI(rus)-B'
+	SymbolName = 'SHFE.ru 2005 - 1 分 - MCTrader'
 
 [Wsp\Window_1\ChartManager\Strategy\StrategyHelper\OptimizerProperties\Algorithm_0]
 	CFFScriptGenetic = '// TODO: Enter your formula to replace the samples below 
@@ -4518,7 +4518,7 @@ The reserved words supported in Portfolio optimization:
 	TIF = '-1'
 
 [Wsp\Window_1\ChartManager\TradePanelPlaceholder\TradePanelObject\PerAccountSetting\Settings\Settings\Item_0\Second\TIFDate]
-	Ticks = '637187353686940000'
+	Ticks = '637189085324690000'
 
 [Wsp\Window_1\ChartManager\TradePanelPlaceholder\TradePanelObject\PerAccountSetting\Settings\Settings\Item_1]
 	First = '1999_2-0059088'
@@ -4540,7 +4540,7 @@ The reserved words supported in Portfolio optimization:
 	TIF = '1'
 
 [Wsp\Window_1\ChartManager\TradePanelPlaceholder\TradePanelObject\PerAccountSetting\Settings\Settings\Item_2\Second\TIFDate]
-	Ticks = '637187353686940000'
+	Ticks = '637189085324690000'
 
 [Wsp\Window_1\ChartManager\TradePanelPlaceholder\TradePanelObject\Window\AtmAutoApplyCtx\PropertyState]
 	Count = '0'
