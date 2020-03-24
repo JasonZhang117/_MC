@@ -25,5 +25,4 @@ if GVCCT<CTT then //被动模型持仓量小于主动模型持仓量（被动减
 	if MP<0 then
 		Buytocover("PK") CTT-GVCCT shares next bar at market; 
 	end;
-//GVSetNamedInt("PPBgu1",PositionProfit(0));
 
